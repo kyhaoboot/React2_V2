@@ -15,7 +15,7 @@ export default function index() {
   };
   const renderFace = () => {
     return (
-      <div>
+      <>
         <div className="glass">
           <img src={imgPath} width="200px" />
         </div>
@@ -26,7 +26,7 @@ export default function index() {
           <p className="text-left text-white">Price: {pricePath}</p>
           <p className="text-left text-white">Desc: {descPath}</p>
         </div>
-      </div>
+      </>
     );
   };
   const renderListGlasses = () => {
@@ -49,7 +49,7 @@ export default function index() {
   return (
     <>
       <div className="content-face max-w-8xl w-full mx-auto ">
-        <div className="flex justify-around">
+        <div className="flex w-full justify-around">
           <div className="p-6">
             <div href="#" className="card-box h-100 block max-w-sm ">
               <img src="./public/glassesImage/model.jpg" />
