@@ -17,20 +17,28 @@ export default function index() {
   const renderFace = () => {
     return (
       <>
-        <div class="card-img relative">
-          <div class="img-face">
-            <img src="public/glassesImage/model.jpg" width="300px" />
-          </div>
-          <div class="img-glasses absolute top-24 right-18">
-            <div>
-              <img src={imgPath} width="150px" />
+        <div>
+          <div className="card-img relative">
+            <div className="img-face">
+              <img src="public/glassesImage/model.jpg" width="300px" />
+            </div>
+            <div className="img-glasses absolute top-24 right-18">
+              <div>
+                <img src="{imgPath}" width="150px" />
+              </div>
             </div>
           </div>
-        </div>
-        <div class="card-content absolute top-60 bg-amber-500 w-full">
-          <h1 class="text-2xl text-fuchsia-300">Name: {namePath}</h1>
-          <h2 class="text-xl">Price: {pricePath}</h2>
-          <p>Desc: {descPath}</p>
+          <div className="card-content absolute top-60 bg-amber-500 w-full">
+            <h1 className="text-2xl text-fuchsia-300">
+              Name: {"{"}namePath{"}"}
+            </h1>
+            <h2 className="text-xl">
+              Price: {"{"}pricePath{"}"}
+            </h2>
+            <p>
+              Desc: {"{"}descPath{"}"}
+            </p>
+          </div>
         </div>
       </>
     );
