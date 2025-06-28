@@ -51,7 +51,7 @@ export default function index() {
       <div className="content-face max-w-8xl w-full mx-auto ">
         <div className="flex w-full justify-around">
           <div className="p-6">
-            <div href="#" className="card-box h-100 block max-w-sm ">
+            <div href="#" className="card-box block max-w-sm w-full">
               <img src="./public/glassesImage/model.jpg" />
               {renderFace()}
             </div>
