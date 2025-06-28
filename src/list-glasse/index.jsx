@@ -20,7 +20,7 @@ export default function index() {
         <div>
           <div className="card-img relative">
             <div className="img-face">
-              <img src="public/glassesImage/model.jpg" width="300px" />
+              <img src="/glassesImage/model.jpg" width="300px" />
             </div>
             <div className="img-glasses absolute top-24 right-18">
               <div>
