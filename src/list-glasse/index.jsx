@@ -24,20 +24,14 @@ export default function index() {
             </div>
             <div className="img-glasses absolute top-24 right-18">
               <div>
-                <img src="{imgPath}" width="150px" />
+                <img src={imgPath} width="150px" />
               </div>
             </div>
           </div>
           <div className="card-content absolute top-60 bg-amber-500 w-full">
-            <h1 className="text-2xl text-fuchsia-300">
-              Name: {"{"}namePath{"}"}
-            </h1>
-            <h2 className="text-xl">
-              Price: {"{"}pricePath{"}"}
-            </h2>
-            <p>
-              Desc: {"{"}descPath{"}"}
-            </p>
+            <h1 className="text-2xl text-fuchsia-300">Name: {namePath}</h1>
+            <h2 className="text-xl">Price: {pricePath}</h2>
+            <p>Desc: {descPath}</p>
           </div>
         </div>
       </>
